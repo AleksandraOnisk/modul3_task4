@@ -1,10 +1,10 @@
 public class Product {
-    String category;
+    Category category;
     String name;
     String description;
     double price;
 
-    Product(String cat, String pn, String pd, double pp) {
+    Product(Category cat, String pn, String pd, double pp) {
         category = cat;
         name = pn;
         description = pd;
@@ -12,7 +12,7 @@ public class Product {
     }
 
     void show() {
-        System.out.println(category + ", " + name + ", " + description + ", " + price);
+        System.out.println(category.category + ", " + name + ", " + description + ", " + price);
 
     }
 }
