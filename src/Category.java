@@ -5,7 +5,6 @@ public class Category {
     Category(String c, String cd) {
         category = c;
         categoryDescription = cd;
-
     }
 
     void show() {

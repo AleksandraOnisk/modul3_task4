@@ -1,18 +1,18 @@
 public class SpecialOffer {
     String productName;
-    String OfferDescription;
-    String TimeOffer;
+    String offerDescription;
+    String timeOffer;
     double discount;
 
     SpecialOffer(String pn, String of, String to, double d) {
         productName = pn;
-        OfferDescription = of;
-        TimeOffer = to;
+        offerDescription = of;
+        timeOffer = to;
         discount = d;
     }
 
     void show() {
-        System.out.println(productName + ", " + OfferDescription + ", " + TimeOffer + ", " + discount);
+        System.out.println(productName + ", " + offerDescription + ", " + timeOffer + ", " + discount);
 
     }
 }
