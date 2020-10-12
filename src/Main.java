@@ -12,8 +12,8 @@ public class Main {
         Product prod3 = new Product(cat1, "Coca-cola light", "dietetyczny napój na słodziku", 5.99);
         prod3.show();
 
-
-        Product prod4 = new Product(null, "Chipsy ziemniaczane", "Smak solony", 4.99);
+        Category cat3 = new Category("brak", "brak");
+        Product prod4 = new Product(cat3, "Chipsy ziemniaczane", "Smak solony", 4.99);
         prod4.show();
 
         SpecialOffer offer1 = new SpecialOffer(prod2.name, "Rabat na gorzkie czekolady", "od 5.10.2010 do 10.10.2020", 0.2);
