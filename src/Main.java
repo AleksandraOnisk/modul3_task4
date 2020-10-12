@@ -16,7 +16,7 @@ public class Main {
         Product prod4 = new Product(cat3, "Chipsy ziemniaczane", "Smak solony", 4.99);
         prod4.show();
 
-        SpecialOffer offer1 = new SpecialOffer(prod2.name, "Rabat na gorzkie czekolady", "od 5.10.2010 do 10.10.2020", 0.2);
+        SpecialOffer offer1 = new SpecialOffer(prod2, "Rabat na gorzkie czekolady", "od 5.10.2010 do 10.10.2020", 0.2);
         offer1.show();
 
     }
